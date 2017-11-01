@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="githubViewer">
+  <head>
+    <meta charset="utf-8" />
+    <script data-require="angular.js@*" data-semver="1.3.0-beta.5" 
+            src="https://code.angularjs.org/1.3.0-beta.5/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.2.14" 
+            src="https://code.angularjs.org/1.2.14/angular-route.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="MainCtrl.js"></script>
+    <script src="UserCtrl.js"></script>
+    <script src="RepoCtrl.js"></script>
+    <script src="github.js"></script>
+  </head>
+  <body>
+
+      <h1>Github Viewer</h1>
+      <div ng-view></div>
+  </body>
+
+</html>
